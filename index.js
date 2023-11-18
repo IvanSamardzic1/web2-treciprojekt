@@ -19,7 +19,7 @@ var audio = new Audio('sudarzvuk.mp3');
 //ne stvorimo previse napadaca
 let brojac = 0;
 //nase najbolje vrijeme, pamti se u localStorage
-let najboljeVrijeme = localStorage.getItem("najboljeVrijeme") || Infinity;
+let najboljeVrijeme = localStorage.getItem("najboljeVrijeme");
 //treba nam i pocetnovrijeme i vrijeme koje je proslo kako bi mogli mjeriti
 //vrijeme do sudara
 let pocetnovrijeme;
